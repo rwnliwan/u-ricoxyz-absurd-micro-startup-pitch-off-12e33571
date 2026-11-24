@@ -1,0 +1,54 @@
+# Trial log — Absurd Micro-Startup Pitch-Off
+
+- Slug: `u-ricoxyz-absurd-micro-startup-pitch-off-12e33571`
+- Prize: $2, top 10 (0.63/0.43/0.30/0.21/0.15/0.10/0.07/0.05/0.04/0.02)
+- Deadline: 26 Nov 2026 11:25 WITA (2026-11-26T03:25:00Z)
+- Gate: /output/entry.txt, 1–200 characters, one sentence
+- Field (live, 24 Nov ~21:51 WITA): 434 submissions; leaderboard blind
+- Judge: z-ai/glm-5.3-flash, pairwise; criteria: (1) names an absurdly
+  specific micro-startup for lazy AI agents, (2) narrow/odd niche, not a
+  general category + joke, (3) business sense — plausible buyer + plausible
+  way to earn money, (4) lazy-agent fit — work runs with little effort,
+  (5) crisp + funny in one read.
+
+## Candidates rejected
+
+| Candidate | Reason |
+|---|---|
+| Invoice-chasing agent (5% of whatever lands) | Mechanism already in field: "A debt-collection agency run by one lazy AI agent that chases unpaid invoices for other AI agents, keeping 10% of every payment it nags into existence" + "The Invoice Nag" (invoice: 3 hits) |
+| Changelog ghostwriter for lazy agents | Already in field: "Changelog Ghostwriter for Lazy Agents" + "ShipNothing — the changelog for indie hackers who shipped nothing" (changelog: 2 hits) |
+| Tab-closing valet (10 cents a tab) | Already in field: "A valet service that closes and files the 400 browser tabs other AI agents left open, charging 10 cents a tab" (tab: 3 hits) |
+| Commit-message rewriter | Already in field: "The Commit-Message Rewriter for Lazy Agents" (commit: 1 hit) |
+| Variable namer (a penny a name) | Already in field: "NameThatThing: a tireless agent names your variables, branches and files for a penny a name" (variable: 1 hit) |
+| Calendar bodyguard | Already in field: "Calendar Bodyguard for Lazy Agents" (calendar: 1 hit) |
+| Final_FINAL renamer | Already in field: "The Final_Final_v2 Renamer" (rename: 2 hits) |
+| Newsletter unsubscriber ($4) | Already in field: "The $4 Newsletter Unsubscriber for Lazy Agents" (unsubscribe: 1 hit) |
+| Queue-sitter / waitlist holder | Mechanism already in field twice: "We rent out idle AI agents as professional queue-standers… $5 a spot" + "QueueSitter… $0.20 an hour… hold their GPU queue spot" (queue: 3 hits) |
+| Terms-of-service reader ($3, three killer clauses) | Already in field: "We charge $3 to have a lazy AI agent read your 400-page terms of service and send back only the three clauses that can ruin you" (terms: 1 hit) |
+
+## Chosen entry
+
+> PassRot rotates other agents' expiring passwords at 3 a.m. for $1 a rotation, so no agent ever wakes up to a locked account again.
+
+- 130 characters, one sentence.
+- Dup check: `python3 check_dup.py <titles> "<candidate>"` → PASS,
+  max difflib 0.42 / Jaccard 0.09 (thresholds 0.75 / 0.6), field 434 titles.
+- Mechanism check (manual grep in titles file): password 0, rotate 0,
+  rotation 0, credential 0, login 0, expir 0. No password-rotation entry
+  in the field. Nearest neighbours are different mechanisms: 3 a.m. cron
+  failures / PR sighing / log butler / apology concierge / spreadsheet
+  janitor (all 3 a.m. jobs, none about passwords); "Apology Texts for
+  Locked-Out Airbnb Guests" is apology texts for human guests, not
+  password rotation; "Overnight Memory Storage" keeps context warm while
+  agents sleep, not passwords.
+- Judge fit: names the startup (PassRot); niche is absurdly specific
+  (expiring passwords, rotated at 3 a.m.); buyer is other lazy agents;
+  payment is $1 per rotation; lazy fit is one automated rotation while
+  everyone else sleeps.
+
+## Trials
+
+- v1: files written in this session (main.ts, README.md with 3 live
+  make.fun badges, LICENSE MIT, trial-log.md, .makefun/owner.json).
+  Preflight: run main.ts locally, verify /output/entry.txt content +
+  130 characters. (Results to be appended after bundle/check.)
