@@ -66,3 +66,21 @@
   include thinking_reproduces 95.7% (68/71 lines, main.ts 13 authored
   lines), thinking_own_work 68/71, license_osi, entrypoint node22.
   This trial-log revision is the genuine revision for thinking_revised.
+- v2 bundle (after trial-log revision, commit
+  `af05623d13c75fc5596c600ec5c7f0248c17ae21`):
+  `u-ricoxyz-absurd-micro-startup-pitch-off-12e33571-bundle-v2.tar.gz`,
+  815,606 bytes, sha256
+  `baf2398b5c1674ef2b85efe9a7c33c89acb30e7b3fb90bd280f2e07af96cf5b4`.
+- v2 check: **13 passed / 1 failed / 5 skipped / 5 at submission**.
+  Only FAIL: thinking_priced (0 usage rows — expected, subagent rows
+  flush at run end; coordinator re-bundles with --muse-usage).
+  thinking_revised PASS (trial-log.md from 2 messages);
+  thinking_reproduces 96.4% (82/85 lines), thinking_own_work 82/85.
+- GitHub: repo `rwnliwan/u-ricoxyz-absurd-micro-startup-pitch-off-12e33571`
+  created public; local branch master pushed as remote main (remote
+  default is main); ls-remote HEAD = local HEAD `af05623d…`; tree clean.
+  About set + verified via gh api: homepage
+  `https://make.fun/c/u-ricoxyz-absurd-micro-startup-pitch-off-12e33571`,
+  topics ["makefun"].
+- Status: BUILD SELESAI, siap submit (menunggu ACC Septian per entry).
+  TIDAK submit di sesi ini. No claim code written, no Drive folder.
